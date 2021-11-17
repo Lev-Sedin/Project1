@@ -5,6 +5,9 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  overflow: hidden;
 }
 .container {
   max-width: 1440px;
@@ -15,6 +18,7 @@ body {
   display: flex;
   margin-top: 30px;
   position: relative;
+  margin-bottom: 30px;
 }
 .nav-first {
   margin-left: 50px;
@@ -32,8 +36,8 @@ body {
   margin-left: 84px;
 }
 .logo {
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  left: 45px;
 }
 .nav-second {
   margin-right: 80px;
@@ -43,4 +47,62 @@ body {
   font-size: 14px;
   line-height: 16px;
   margin-left: 0;
+}
+.brt {
+  position: relative;
+  margin-bottom: 80px;
+}
+.photo {
+  display: flex;
+}
+.photo img {
+  width: 100%;
+}
+.block-one {
+  position: absolute;
+  text-align: center;
+  top: 37%;
+  width: 100%;
+  color: rgba(255, 255, 255, 1);
+}
+.zag {
+  font-size: 43px;
+  line-height: 46px;
+  font-style: normal;
+  font-weight: normal;
+}
+.para {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.8px;
+  margin-top: 12px;
+  margin-bottom: 28px;
+  font-style: normal;
+  font-weight: normal;
+}
+.learn {
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.4px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+.text {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.parag {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  color: rgba(160, 160, 160, 1);
+  padding: 23px 0 26px 0;
+}
+.start {
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 1.4px;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
 }
