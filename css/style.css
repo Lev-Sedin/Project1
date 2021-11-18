@@ -159,3 +159,26 @@ li {
   padding-right: 8px;
   padding-left: 8px;
 }
+.gadgets {
+  display: flex;
+  justify-content: space-between;
+}
+.gadget {
+  margin: 0 13px 0 12px;
+  margin-bottom: 94px;
+}
+.phone {
+  margin-left: 63px;
+}
+.pc {
+  margin-right: 63px;
+}
+.photo-gadgets {
+  margin-bottom: 23px;
+  width: 100%;
+}
+.name {
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(160, 160, 160, 1);
+}
