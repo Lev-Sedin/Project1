@@ -113,6 +113,7 @@ body {
 .main {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 133px;
 }
 .main-first {
   margin-left: 50px;
@@ -140,4 +141,21 @@ body {
   font-size: 13px;
   line-height: 15px;
   color: rgba(0, 0, 0, 1);
+}
+.third {
+  font-size: 33px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.two {
+  padding: 0;
+  margin-bottom: 43px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  padding-right: 8px;
+  padding-left: 8px;
 }
